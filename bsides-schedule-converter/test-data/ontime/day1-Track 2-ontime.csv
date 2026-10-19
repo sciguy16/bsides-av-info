@@ -1,0 +1,15 @@
+Time Start,Link start,Time End,Duration,Cue,Title,Skip,Colour,End action,Timer type,Count to end,Warning time,Danger time
+10:00:00,true,10:40:00,00:40:00,1,Who Can Become Root? An SRE Guide to Access Drift and Privilege Escalation,false,green,none,count-down,false,00:05:00,00:01:00
+10:40:00,false,11:00:00,00:20:00,2,Intermission,false,yellow,none,clock,true,00:05:00,00:01:00
+11:00:00,true,11:20:00,00:20:00,3,Threat Modelling in the Real World: Lessons from a First-Time Practitioner,false,green,none,count-down,false,00:05:00,00:01:00
+11:20:00,false,11:30:00,00:10:00,4,Intermission,false,yellow,none,clock,true,00:05:00,00:01:00
+11:30:00,true,11:50:00,00:20:00,5,They Hacked Me. I Took Their Source Code.,false,green,none,count-down,false,00:05:00,00:01:00
+11:50:00,false,14:00:00,02:10:00,6,Intermission,false,yellow,none,clock,true,00:05:00,00:01:00
+14:00:00,true,14:40:00,00:40:00,7,Why Cybersecurity Awareness Alone Doesn't Stop Phishing: Lessons from a Human-Centred Study of 200 Users,false,green,none,count-down,false,00:05:00,00:01:00
+14:40:00,false,15:00:00,00:20:00,8,Intermission,false,yellow,none,clock,true,00:05:00,00:01:00
+15:00:00,true,15:40:00,00:40:00,9,The Illusion of the cloud: From orbit to ocean floor,false,green,none,count-down,false,00:05:00,00:01:00
+15:40:00,false,16:00:00,00:20:00,10,Intermission,false,yellow,none,clock,true,00:05:00,00:01:00
+16:00:00,true,16:40:00,00:40:00,11,NonStop Looting: How to Steal from the Mainframe You’ve (likely) Never Heard Of,false,green,none,count-down,false,00:05:00,00:01:00
+16:40:00,false,17:00:00,00:20:00,12,Intermission,false,yellow,none,clock,true,00:05:00,00:01:00
+17:00:00,true,17:20:00,00:20:00,13,The Human Firewall Is a Myth: Designing Security for Actual Human Behavior,false,green,none,count-down,false,00:05:00,00:01:00
+17:20:00,false,23:59:59,06:39:59,14,End of day,false,yellow,none,clock,true,00:05:00,00:01:00

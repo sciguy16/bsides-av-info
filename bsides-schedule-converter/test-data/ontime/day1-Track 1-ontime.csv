@@ -1,0 +1,16 @@
+Time Start,Link start,Time End,Duration,Cue,Title,Skip,Colour,End action,Timer type,Count to end,Warning time,Danger time
+08:55:00,true,09:05:00,00:10:00,1,Opening Notes Friday,false,green,none,count-down,false,00:05:00,00:01:00
+09:05:00,true,09:45:00,00:40:00,2,Keynote - Managing The Minefield of Management Cyber Explosions - Understanding what to say and when to say it,false,green,none,count-down,false,00:05:00,00:01:00
+09:45:00,false,10:00:00,00:15:00,3,Intermission,false,yellow,none,clock,true,00:05:00,00:01:00
+10:00:00,true,10:40:00,00:40:00,4,"Fake It Till You Detect It: Live Deepfakes, Detection Gaps, and the Human Risk Management Response",false,green,none,count-down,false,00:05:00,00:01:00
+10:40:00,false,11:00:00,00:20:00,5,Intermission,false,yellow,none,clock,true,00:05:00,00:01:00
+11:00:00,true,11:40:00,00:40:00,6,The Next Internal Network: Why Your Old Playbook Doesn't Work,false,green,none,count-down,false,00:05:00,00:01:00
+11:40:00,false,14:00:00,02:20:00,7,Intermission,false,yellow,none,clock,true,00:05:00,00:01:00
+14:00:00,true,14:40:00,00:40:00,8,Domain Protection - How We Protect Our Customers,false,green,none,count-down,false,00:05:00,00:01:00
+14:40:00,false,15:00:00,00:20:00,9,Intermission,false,yellow,none,clock,true,00:05:00,00:01:00
+15:00:00,true,15:40:00,00:40:00,10,The biggest digital sovereignty risk isn’t what you think...,false,green,none,count-down,false,00:05:00,00:01:00
+15:40:00,false,16:00:00,00:20:00,11,Intermission,false,yellow,none,clock,true,00:05:00,00:01:00
+16:00:00,true,16:40:00,00:40:00,12,Getting started in embedded device research,false,green,none,count-down,false,00:05:00,00:01:00
+16:40:00,false,17:00:00,00:20:00,13,Intermission,false,yellow,none,clock,true,00:05:00,00:01:00
+17:00:00,true,17:20:00,00:20:00,14,How Efficiency Can Lead to Disruption: The Evolution of Phishing Emails,false,green,none,count-down,false,00:05:00,00:01:00
+17:20:00,false,23:59:59,06:39:59,15,End of day,false,yellow,none,clock,true,00:05:00,00:01:00

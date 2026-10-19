@@ -1,0 +1,335 @@
+---
+source: bsides-schedule-converter/src/event.rs
+expression: load_bristol().finish()
+---
+time_zone: Europe/London
+sessions:
+  - title: Opening Notes Friday
+    description: ""
+    speakers: []
+    start_utc: "2026-08-21T07:55:00Z"
+    end_utc: "2026-08-21T08:05:00Z"
+    tracks: 1
+    room: ~
+  - title: Keynote - Managing The Minefield of Management Cyber Explosions - Understanding what to say and when to say it
+    description: "Cyber security has never been more popular—or more exhausting. After COVID, everyone wanted in. Fast forward a few years, and many of those same professionals are burned out, disillusioned, and quietly wondering what they actually signed up for.\n\nThis talk skips the polished narratives and gets into the reality of operating security inside a business. Not theory—practice. The kind where priorities shift mid-incident, “critical” risks compete with revenue, and security teams are expected to translate technical issues into decisions that executives can act on in minutes, not months.\n\nWe’ll air some of cyber’s dirty laundry: how the function is really perceived by management, why it’s still too often seen as a cost centre or a blocker, and how decades of fear-driven messaging have eroded trust rather than built it. Drawing on real-world experience, we’ll look at what happens when security has to justify itself in operational terms—during incidents, in boardrooms, and in the quiet trade-offs no framework really covers.\n\nMore importantly, we’ll challenge the language of cybersecurity. What happens when you remove the FUD and speak in terms the business actually values? What does security look like when it’s treated as an operational capability—something that enables decisions, manages uncertainty, and supports resilience—rather than a compliance exercise?\n\nExpect candid observations, a few uncomfortable truths, and a perspective shaped by running security where it has to work, not just look good on paper."
+    speakers:
+      - Peter Jones
+    start_utc: "2026-08-21T08:05:00Z"
+    end_utc: "2026-08-21T08:45:00Z"
+    tracks: 1
+    room: ~
+  - title: "Fake It Till You Detect It: Live Deepfakes, Detection Gaps, and the Human Risk Management Response"
+    description: "Your screen is lying to you. The question is whether you know it yet.\nIn this session, James McQuiggan (CISSP, Founder and Advisory CISO, Apparent Security) shares the issue of the gap between creation and detection is not theoretical. It is the current attack surface being used against your users, your executives, and your hiring pipelines right now.\nIt's important to understand what actually closes that gap: human resistance, behavioral detection signals, and a practical human risk management framework that works when the technology and detection tools don't.\nSynthetic media is not the future threat. It's important to be aware of the tools available, the countermeasure, and the layer that outlasts both."
+    speakers:
+      - "James R. McQuiggan, CISSP"
+    start_utc: "2026-08-21T09:00:00Z"
+    end_utc: "2026-08-21T09:40:00Z"
+    tracks: 1
+    room: ~
+  - title: Who Can Become Root? An SRE Guide to Access Drift and Privilege Escalation
+    description: "Privilege escalation is not always a dramatic exploit, and in production systems it is often less about one clever trick than about a chain of ordinary operational decisions that were each made for a sensible reason, at a stressful moment, and without anyone stepping back later to ask what those decisions allowed when combined.\n\nThis blue-team SRE talk asks a simple but uncomfortable question: who can become root?\n\nWe will look at how temporary access, old service accounts, broad deploy permissions, and emergency exceptions can accumulate into hidden access paths that make people, processes, pipelines, or services more powerful than intended. Through a local, isolated demo, we will follow one flawed access path from a boring starting point to an uncomfortable ending, then reverse the story from the defender’s side to ask what evidence, containment, and guardrails would have exposed it earlier.\n\nAttendees will leave with a practical access-path review worksheet they can use to move beyond asking \"who has admin?\" and start asking the more useful question: \"who can become admin?\""
+    speakers:
+      - Viola Lykova
+    start_utc: "2026-08-21T09:00:00Z"
+    end_utc: "2026-08-21T09:40:00Z"
+    tracks: 2
+    room: ~
+  - title: "The Next Internal Network: Why Your Old Playbook Doesn't Work"
+    description: "For more than two decades, internal penetration testing has followed a familiar objective: compromise Active Directory and become Domain Admin.\n\nOur methodologies, tooling and even our mental models have been built around this goal. Kerberoasting, delegation abuse, AD CS attacks, DCSync and BloodHound became the playbook for understanding enterprise compromise.\n\nBut what happens when Domain Admin is no longer the most valuable privilege in the organisation?\n\nModern enterprises are rapidly shifting their trust away from traditional Windows domains. Identity providers grant access to critical business systems. SaaS platforms hold sensitive data and administrative control. Device management platforms decide which endpoints are trusted. Cloud management planes often provide broader influence than on-premises infrastructure, while OAuth applications and federated identity introduce entirely new attack paths.\n\nThis talk explores how the definition of the \"internal network\" is changing and why offensive security professionals need to rethink what successful compromise looks like.\n\nUsing examples inspired by real penetration testing engagements, we'll examine how attackers can chain together weaknesses across identity providers, cloud administration, SaaS platforms, device management and federated trust to achieve objectives that traditional Active Directory-focused methodologies may never uncover.\n\nThis isn't a talk about the death of Active Directory—it remains a critical component of many enterprise environments. Instead, it's about recognising that Active Directory is increasingly just one node in a much larger trust graph.\n\nWhether you're a penetration tester, red teamer, blue teamer or security leader, you'll leave with a new perspective on where enterprise trust is moving, how attackers are adapting, and why the next generation of internal security assessments must look far beyond Domain Admin."
+    speakers:
+      - Dumi Masimini
+    start_utc: "2026-08-21T10:00:00Z"
+    end_utc: "2026-08-21T10:40:00Z"
+    tracks: 1
+    room: ~
+  - title: "Threat Modelling in the Real World: Lessons from a First-Time Practitioner"
+    description: "Threat modelling is often introduced as a structured and well-defined process, but applying it in real-world environments can be far more challenging than expected.\n\nAs a practitioner relatively early in this journey, I’ve experienced first-hand how threat modelling can become difficult to maintain, disconnected from fast-changing systems, and sometimes overlooked entirely in day-to-day security work.\n\nIn this talk, I’ll share practical lessons learned while working with threat modelling in complex environments — including where things didn’t go as planned. From struggling with keeping models up to date, to bridging gaps between different teams, this session focuses on the realities that are often not discussed.\n\nRather than focusing on theory or frameworks, this talk explores simple, practical ways to make threat modelling more useful and relevant — including connecting it with monitoring, detection, and everyday security workflows.\n\nThis session is aimed at anyone starting out with threat modelling or trying to make it work in real-world scenarios, offering an honest perspective and actionable takeaways."
+    speakers:
+      - Poulomi Dwibedi
+    start_utc: "2026-08-21T10:00:00Z"
+    end_utc: "2026-08-21T10:20:00Z"
+    tracks: 2
+    room: ~
+  - title: They Hacked Me. I Took Their Source Code.
+    description: "This talk walks through how a $20 piece of cloud infrastructure became a fully functional threat intelligence pipeline. Starting with a simple honeypot, we capture an inbound attack, pivot back against the attacker's infrastructure using a reverse scan, discover an open staging server, and walk away with something most researchers only dream of — the actual source code behind the malware.\nNo enterprise budget. No team. No expensive tooling. Just cheap infrastructure, some curiosity, and attackers with terrible opsec.\nWe'll walk through the full attack chain in reverse — from the initial hit on the honeypot, through the pivot and enumeration of attacker infrastructure, to pulling the payload and source code from their own server. We'll then crack open both the binary in IDA Pro and the source code side by side, showing exactly what this bot was built to do and what the attacker left behind for anyone willing to look.\nThe key takeaway is simple — you don't need a SOC, a threat intel platform, or a six figure budget to find real malware in the wild. Sometimes the attackers do half the work for you."
+    speakers:
+      - David Rushmer
+    start_utc: "2026-08-21T10:30:00Z"
+    end_utc: "2026-08-21T10:50:00Z"
+    tracks: 2
+    room: ~
+  - title: Domain Protection - How We Protect Our Customers
+    description: "My presentation will demonstrate what tools Aviva utilising to identify websites that are being used maliciously in a\nfraudulent manner against members of the public and our customers or infringing our brand in an unapproved manner\nto enhance their reputation.\nI will demonstrate the options we have to take action against such sites and how we have transformed from a team who react to reports from public to a team that now take proactive actions to disable sites before they have had opportunity to defraud members of the public."
+    speakers:
+      - Martin Clarke
+    start_utc: "2026-08-21T13:00:00Z"
+    end_utc: "2026-08-21T13:40:00Z"
+    tracks: 1
+    room: ~
+  - title: "Why Cybersecurity Awareness Alone Doesn't Stop Phishing: Lessons from a Human-Centred Study of 200 Users"
+    description: "Phishing has become the most common cybersecurity threat and increasingly exploits human factors rather than technical vulnerabilities. This study examined the relationships between cybersecurity awareness, training frequency, user cyber-hygiene behaviour, organisational culture, risk perception, and self-reported phishing vulnerability. and the theoretical basis of this research is the Technology Threat Avoidance Theory (TTAT). A quantitative correlational design was used for data collection and analysis with Pearson correlation in structured questionnaires. The results indicated that the five independent variables have a significant positive relationship with phishing vulnerability. The increased awareness and regular training correlate with greater recognition of the vulnerability, suggesting improved self-observation but not an increased risk. On the same note, users with high cyber-hygiene practices also perceived themselves as more vulnerable, suggesting that protective measures can be driven by risk perception. An organisational culture also significantly correlated with vulnerability, which requires institutions that are supportive to provide a key role in threat perception. Vulnerability was also impacted by risk perception, with those who perceived phishing to be serious and personalised tending to agree that they were vulnerable. The findings, in general, support the idea that phishing vulnerability is a multidimensional phenomenon shaped by cognitive, behavioural, and organisational factors."
+    speakers:
+      - Darlington Chigozie Okeke
+    start_utc: "2026-08-21T13:00:00Z"
+    end_utc: "2026-08-21T13:40:00Z"
+    tracks: 2
+    room: ~
+  - title: The biggest digital sovereignty risk isn’t what you think...
+    description: "Digital sovereignty is often framed as a data security problem - but what if the real risk is losing access to the systems your organisation depends on? Through real-world case studies, including AWS’s response to the war in Ukraine and recent geopolitical disruptions to cloud and AI services, this session explores why resilience and availability should be at the heart of digital sovereignty, and what organisations can do today to reduce their exposure."
+    speakers:
+      - Matt Johnson
+    start_utc: "2026-08-21T14:00:00Z"
+    end_utc: "2026-08-21T14:40:00Z"
+    tracks: 1
+    room: ~
+  - title: "The Illusion of the cloud: From orbit to ocean floor"
+    description: "We often think of “the cloud” as something abstract and immaterial, yet it is built on a vast and highly physical infrastructure spanning from satellites in orbit to fibre-optic cables on the ocean floor.\nThis talk explores the hidden systems that underpin global connectivity and the risks they face from both cyber and physical disruption. As reliance on these networks grows, so too does their vulnerability. \nThis talk reframes the “cloud” not as something distant, but as a complex, tangible system that is critical to modern life, and invites the audience to not only reconsider what it really means to secure it, but to question who is responsible for protecting a system that no one owns."
+    speakers:
+      - Hannah-Rose Shearman
+    start_utc: "2026-08-21T14:00:00Z"
+    end_utc: "2026-08-21T14:40:00Z"
+    tracks: 2
+    room: ~
+  - title: Getting started in embedded device research
+    description: "Have you ever found yourself wondering if the IoT device you're relying on has any additional \"features\"? Have you ever bought something only to discover it doesn't quite do what you want it to (or is buggy AF)? This talk will be aimed at those interested in reverse engineering (and potentially modifying) embedded device firmware. With no agents in sight, Andy will offer some \"tips 'n' tricks\" into getting started in the fascinating world of embedded device hacking."
+    speakers:
+      - Andy Monaghan
+    start_utc: "2026-08-21T15:00:00Z"
+    end_utc: "2026-08-21T15:40:00Z"
+    tracks: 1
+    room: ~
+  - title: "NonStop Looting: How to Steal from the Mainframe You’ve (likely) Never Heard Of"
+    description: "HPE NonStop systems support critical environments such as ATMs and transaction processing, yet their security model is often misunderstood, under-assessed, and susceptible to exploitation. In this talk, we will explore the unique NonStop architecture, its approach to security, and all the quirks that make it feel like a mainframe. From there, we will talk about common misconfigurations and design patterns that create unintended exposure. Finally, drawing on real-world assessment experience, we will walk through real-life case studies that demonstrate how seemingly small gaps can escalate into full system control, enabling an attacker to navigate the system with ease to steal some of the most valuable data available."
+    speakers:
+      - JBoorman
+    start_utc: "2026-08-21T15:00:00Z"
+    end_utc: "2026-08-21T15:40:00Z"
+    tracks: 2
+    room: ~
+  - title: "How Efficiency Can Lead to Disruption: The Evolution of Phishing Emails"
+    description: "Despite increasing awareness and training, phishing emails remain the most common entry point for cybercrime. This talk explores how their continued success is not simply due to attacker sophistication, but a predictable outcome of a system designed for efficiency. As companies encourage fast digital interactions from their employees, such as skimming emails or trusting familiar interfaces, exploitation becomes easier. Drawing on research in human factors and psychology, this talk reframes susceptibility as a systemic issue rather than individual failure. It concludes by considering how we can change company culture and improve cyber security education to prevent attacks."
+    speakers:
+      - Becky Stacey
+    start_utc: "2026-08-21T16:00:00Z"
+    end_utc: "2026-08-21T16:20:00Z"
+    tracks: 1
+    room: ~
+  - title: "The Human Firewall Is a Myth: Designing Security for Actual Human Behavior"
+    description: "For more than two decades, businesses have invested substantially in security awareness programs aimed at transforming employees into a \"human firewall.\" Nonetheless, phishing attacks, credential theft, and social engineering continue to occur at an alarming rate. If awareness training works, why do users continue to make the same security mistakes?\n\nThis session questions the human firewall notion and investigates whether the issue is not with users, but with how security programs are structured. Drawing on human factors research, behavioral psychology, and real-world cybersecurity examples, the session investigates how cognitive overload, time constraints, decision fatigue, and conflicting workplace objectives influence security-related choices.\n\nRather than expecting faultless behavior from fallible individuals, attendees will discover how organizations can create security systems, procedures, and cultures that can withstand human error. The presentation provides a realistic, human-centered approach to cybersecurity that goes beyond blame and awareness metrics to design security around how people think, work, and behave.\n\nWhether you are a security practitioner, management, developer, or researcher, this presentation will challenge long-held assumptions and deliver actionable insights into developing more effective and realistic security tactics."
+    speakers:
+      - Endurance Imasuen
+    start_utc: "2026-08-21T16:00:00Z"
+    end_utc: "2026-08-21T16:20:00Z"
+    tracks: 2
+    room: ~
+  - title: Opening Notes Saturday
+    description: ""
+    speakers: []
+    start_utc: "2026-08-22T07:55:00Z"
+    end_utc: "2026-08-22T08:05:00Z"
+    tracks: 1
+    room: ~
+  - title: "Keynote - Agent Smith Is in Your Stack: A Practical Guide to Governing AI Integration Before It Governs You"
+    description: "AI didn't ask permission before it moved into your organisation. It's in your codebase as a copilot, in your SaaS tools as a hidden feature, on your vendors' roadmaps and increasingly it acts on its own: reading data, calling APIs, making decisions. Most security programmes are still governing yesterday's threat model."
+    speakers:
+      - Susanne Bitter
+    start_utc: "2026-08-22T08:05:00Z"
+    end_utc: "2026-08-22T08:45:00Z"
+    tracks: 1
+    room: ~
+  - title: "The Silence of the LAMs: Detecting Rogue Language Models"
+    description: "First principles: the most dangerous threats in your enterprise aren't the ones making noise. They're the ones you've already let in.\nShadow AI: the use of unapproved AI tools, models, and services without IT or security oversight  is now one of the fastest-growing sources of uncontrolled data exposure in organisations of every size. Microsoft research confirms that 71% of UK employees have used unapproved consumer AI tools at work, with 51% doing so every single week. Most security teams have no visibility whatsoever. The transaction is frictionless, the blast radius is enormous, and the perpetrator is probably your most productive employee.\nThis talk is structured around the three questions: where is it hiding, how do you find it, and what do you do when you finally locate it in the dark?\nWhere is it hiding? We'll map the Shadow AI attack surface: public LLM APIs called directly from corporate devices, AI-powered browser extensions intercepting clipboard and page content, local models running entirely on-device to evade network controls, agentic automation workflows quietly piping internal data to external inference endpoints, and AI features embedded inside approved SaaS tools with their own opaque data handling.\nHow do you find it? We'll look at detection across the stack. At the network layer: DNS monitoring against a continuously updated AI domain blocklist, TLS SNI inspection without decryption, and NetFlow anomaly detection for large sustained POST volumes. At the endpoint: EDR telemetry for local LLM runtimes, model weight file signatures, and browser extension enumeration. At the identity layer: OAuth consent grant analysis, SSO bypass detection, and personal account usage on corporate devices. Tying it all together with SIEM correlation rules that build high-fidelity Shadow AI alerts from low-fidelity signals.\nWhat do you do when you find it? Here's where most organisations struggle. Blocking doesn't work, it just drives the behaviour underground, onto mobile hotspots and personal laptops. We'll cover incident response for Shadow AI exposure events, how to build an AI acceptable use policy employees will actually follow, and how to construct an approved AI programme that removes the incentive to go rogue in the first place.\nAttendees will leave with an idea for a detection playbook, practical SIEM rules they can implement the following Monday, and a slightly unsettling awareness of what my be lurking in the dark.\n\"You still wake up sometimes, don't you? Wake up in the dark?\" Maybe hopefully you can sleep soundly knowing you have a plan to stop the lams screaming."
+    speakers:
+      - Tasha Armstrong-Godwin
+    start_utc: "2026-08-22T09:00:00Z"
+    end_utc: "2026-08-22T09:40:00Z"
+    tracks: 1
+    room: ~
+  - title: How Resilient is your MFA?
+    description: "Quite often, we go to the effort of backing up our documents and photos, but have you ever considered what you would do if your phone decided to pack up one day?\n\nFrom a security perspective, in this day and age, our mobile phones have become even more important than our main devices (PCs, laptops), with our passkeys, MFA, etc., stored on them.\n\nSo it begs the question, how redundant are our MFA implementations and is this something we should perhaps pay a little more attention to?\n\nIn this talk, we explore why we need MFA redundancy, what MFA redundancy looks like, and how we should go about implementing it."
+    speakers:
+      - Shammas H (@CyberShams)
+    start_utc: "2026-08-22T09:00:00Z"
+    end_utc: "2026-08-22T09:20:00Z"
+    tracks: 4
+    room: ~
+  - title: "Beyond the Air Gap: How IT/OT Convergence Changes the Attack Surface"
+    description: "Operational Technology networks are often discussed as if they are completely isolated. In reality, remote maintenance, vendor access, business systems and centralised monitoring have created more connections between IT and OT.\n\nThis talk explains how that convergence changes the attack surface and why familiar networking weaknesses have different consequences when the network controls a physical process.\n\nI will walk through a simple attack path from remote access into an OT environment, introducing concepts such as segmentation, trust boundaries, HMIs, PLCs and RTUs along the way. I will also briefly reference real incidents affecting European energy infrastructure to show how network access can move towards operational disruption.\n\nThis is an introduction to modern OT networking, focused on one question: how can an ordinary network weakness become a physical problem?"
+    speakers:
+      - Akash
+    start_utc: "2026-08-22T09:30:00Z"
+    end_utc: "2026-08-22T09:50:00Z"
+    tracks: 4
+    room: ~
+  - title: "You’ve Been Ph0wned: How Attackers Compromise Organisations Via Telephone Social Engineering"
+    description: "Modern vishing attacks exploit the tension between fast, helpful support and rigorous identity verification, enabling a single convincing phone call to bypass even strong technical controls. \nDrawing on real-world red team engagements and a live AI voice-cloning demonstration, this session examines the full attack lifecycle - from reconnaissance and pretext development to human manipulation and account compromise. Attendees will gain practical guidance for planning safe, ethical and effective vishing simulations, including actionable lessons and common pitfalls encountered in the field."
+    speakers:
+      - Luiz Simpson
+    start_utc: "2026-08-22T10:00:00Z"
+    end_utc: "2026-08-22T10:40:00Z"
+    tracks: 1
+    room: ~
+  - title: "Hooked: Investigating the Phishing Attack That Targeted Me at University"
+    description: "Phishing emails are everywhere. But what happens when you are the target? This presentation is about a real life phishing incident I experienced as a student at London South Bank University and the findings I uncovered during my investigation.I noticed some suspicious activity and rather than just delete it, I thought I’d dig a little deeper. I’m quite proud of what I uncovered about the spoofed sender, the social engineering tricks they employed and the infrastructure behind it all - which I reported to the university IT team.In this discussion we will cover how the phishing attack bypassed SPF, DKIM and DMARC, the investigation process using open source tools, subtle red flags that may be overlooked, and practical tips to detect and respond to phishing attacks."
+    speakers:
+      - Prithika Gopinath
+    start_utc: "2026-08-22T10:00:00Z"
+    end_utc: "2026-08-22T10:20:00Z"
+    tracks: 4
+    room: ~
+  - title: "How Not to Roll Out a Security Tool: A Tale of Broken PRs and Regret"
+    description: "In DevSecOps, we all love a vendor shootout. Which scanner has the best coverage? Which dashboard is the slickest? Which tool flags the most CVEs?\n\nBut the truth is that rolling out a security tool is 20% getting the invoice paid and 80% communication and desperately trying not to break everyone’s builds. Get that 80% wrong, and you don’t get security. You just get developers figuring out how to bypass you.\n\nThis talk is a post-mortem of an easy mistake from early in my career. I dropped a shiny new software composition analysis (SCA) tool straight into our CI/CD pipeline before I’d tuned the noise, agreed on a rollout model, or given developers a sensible way to respond. For a few newer microservices, it was an inconvenience that could be fixed, but for our core legacy monolith? It was a self-inflicted denial-of-service on delivery.\n\nPRs backed up. Releases stalled. Trust evaporated, and security instantly became the dreaded “Department of No.” Ultimately, I had to turn the tool off for the monolith so we could get releases out the door.\n\nThe lesson was brutal but simple: I hadn’t secured the pipeline. I had just trained the engineering team to route around me.\n\nWe’ll break down exactly what went wrong and how to fix it. We’ll look at how to roll out tooling without the fallout, how to separate visibility from enforcement, and how to introduce blocking controls that engineers actually respect."
+    speakers:
+      - James
+    start_utc: "2026-08-22T10:30:00Z"
+    end_utc: "2026-08-22T10:50:00Z"
+    tracks: 4
+    room: ~
+  - title: "Ghost in the Kernel: Hunting BYOVD After Microsoft’s 2026 Driver Trust Shift"
+    description: "BYOVD attacks have helped ransomware crews and advanced actors disable security tools, hide activity, and move from admin control towards the kernel. Microsoft’s 2026 Windows Driver Policy is a major hardening step, but it does not make kernel-driver risk disappear. This talk explains what the new policy blocks, what it only audits, and what defenders still need to hunt. Using cases including BlackByte, POORTRY/STONESTOP, and Lazarus/FudModule, we will build a practical approach to driver inventory, Code Integrity events, audit-mode visibility, and reducing kernel attack surface."
+    speakers:
+      - Richard Dosumu
+    start_utc: "2026-08-22T12:30:00Z"
+    end_utc: "2026-08-22T13:10:00Z"
+    tracks: 1
+    room: ~
+  - title: Honeypot detection through machine wear and tear
+    description: "Honeypots, which are a high-fidelity intelligence gathering strategy to detect, delay or study adversarial behaviour by simulating vulnerable targets, face the challenge of irrelevancy if adversaries are able to detect and therefore avoid them. Previous research has observed that external behaviours of fake headers and unconvincing error responses lead to detection, but this presentation argues that it is the absent inevitable ageing through day to day use that gives the game away. \n\nThe SANS ISC DShield honeypot was deployed in the cloud and systematically tested against a taxonomy of “wear and tear” across disk, registry, system, browser and network artefacts to assess the level of configuration of the honeypot. Logs from a 30-day period were collected and analysed to identify if adversaries were employing techniques of examining system usage within their attack paths. \n\nIt was observed that when DShield is deployed “off the shelf” it has limited configuration of wear and tear artefacts which reveal the true nature of the machine. 78% of artefacts tested were configured to an unsatisfactory level or absent altogether. This presentation highlights how honeypot operators need to further configure honeypots in order to create a more convincing decoy."
+    speakers:
+      - Matilda Moore
+    start_utc: "2026-08-22T12:30:00Z"
+    end_utc: "2026-08-22T12:50:00Z"
+    tracks: 4
+    room: ~
+  - title: ADS-B and Aviation Security
+    description: "ADS-B is one of the technologies at the forefront of aviation safety, broadcasting information from planes to the ground and other aircraft alerting them of their position, speed and heading. The protocal used is entirely unauthenticated and unencrypted, and malicious actors are able to easily inject false information into this system. Based on my undergradutate dissertation, this talk will discuss the development of ADS-B, the security issues that it has, and the work being done to counteract these problems."
+    speakers:
+      - Oliver Bouchier
+    start_utc: "2026-08-22T13:00:00Z"
+    end_utc: "2026-08-22T13:20:00Z"
+    tracks: 4
+    room: ~
+  - title: "Breaching The Perimeter: The Forgotten Attack Vector That Always Works"
+    description: "If you can open the server room door, you don’t need exploits.\n\nIn this talk, we demonstrate nine real-world ways attackers bypass a server room door and achieve full compromise—no malware, no zero-days, no phishing required. Firewalls, EDR, and IAM become irrelevant the moment physical access is gained.\n\nThis is not theory. These are techniques used in actual red team engagements across Europe. We show how attackers exploit trust, abuse operational gaps, and chain physical access into full compromise. These techniques go beyond tailgating.\n\nWe also cover how modern attackers accelerate these intrusions using AI—automating OSINT to map targets and using deepfake voice pretexting to convincingly talk their way through restricted access points.\n\nIf your threat model stops at the network edge, this talk will break it."
+    speakers:
+      - tatramaco
+    start_utc: "2026-08-22T13:30:00Z"
+    end_utc: "2026-08-22T14:10:00Z"
+    tracks: 1
+    room: ~
+  - title: "We Didn't Have a Patch: How Defence in Depth Saved Our Customers from Log4Shell"
+    description: "This isn't really a talk about Log4Shell. It's the story of what happened when a global zero-day collided with a real customer network — and what we discovered when we went back through the evidence years later.\n\nIn December 2021, a customer called to tell us they'd been hit by Log4Shell. Their application server had been behaving badly, disks were filling, services were failing, and the timing appeared to fit.\nBut did Log4Shell actually cause it?\n\nUsing anonymised evidence from the incident — application logs, emails, firewall configuration and the original customer timeline — I'll reconstruct what we saw at the time, what the rest of the world was seeing, and what the surviving evidence now tells us actually happened.\n\nAlong the way we'll see genuine Log4Shell traffic reach the customer's application and examine the independent security layers surrounding it.\n\nThe important part of the story isn't a particular firewall, product or CVE. It's that security decisions made years earlier were already limiting what an attacker could do before anybody knew what Log4Shell was — and before a patch was available.\n\nThe technology has changed since 2021. The principles haven't."
+    speakers:
+      - Simon wilks
+    start_utc: "2026-08-22T13:30:00Z"
+    end_utc: "2026-08-22T13:50:00Z"
+    tracks: 4
+    room: ~
+  - title: Love You! Now Please Buy Me Gift Cards
+    description: "Your online soulmate just needs one small favour: your bank account. AI now writes the messages, clones the voices and generates the faces while the attackers sit back and watch. Romance scams have stopped looking like scams. They look like real people in relationships. So how do you tell the difference between social engineering and love when everything just feels so real?"
+    speakers:
+      - Aurelia Brzezowska
+    start_utc: "2026-08-22T14:00:00Z"
+    end_utc: "2026-08-22T14:20:00Z"
+    tracks: 4
+    room: ~
+  - title: "So You Want To Get Into Red Teaming: Skills, Mindset, and Myths"
+    description: "Red teaming is often portrayed as a niche, ultra-advanced discipline reserved only for experts with deep exploit-development skills and expensive toolsets. \n\nIn reality, effective red teaming is built on fundamentals: understanding enterprise environments, thinking in attack paths, communicating clearly, working within realistic constraints and problem solving. \n\nThis talk is designed for people who want to enter the field and need a practical view of what red teaming actually involves, what skills matter most at the start, and which common myths can slow progress and distract you from real goals. \n\nI’ll separate hype from reality, outline the core technical and non-technical skills that make a strong red teamer, and offer concrete ways to begin building experience constructively and effectively."
+    speakers:
+      - Chris Pritchard
+    start_utc: "2026-08-22T14:30:00Z"
+    end_utc: "2026-08-22T15:10:00Z"
+    tracks: 1
+    room: ~
+  - title: "Your Daily Routine, Their Daily Recon"
+    description: "In today’s digital landscape, “day-in-the-life” content has grown significantly in popularity, with individuals sharing detailed insights into their daily routines across social media platforms. Whilst often perceived as harmless, this content can reveal far more than intended.\n\nThis talk adopts an adversary's perspective to demonstrate how short, informal videos can be analysed to build detailed intelligence on both the individuals and the businesses they represent.\n\nDrawing on real-world case studies, the session will show how seemingly minor visual and contextual details can expose information about home environments, workplaces, routines, security practices, and operational processes.\n\nIt highlights how low-risk content can quickly become a valuable intelligence source and outlines how organisations can better understand and mitigate this evolving exposure."
+    speakers:
+      - George-Octavian Vieru
+    start_utc: "2026-08-22T14:30:00Z"
+    end_utc: "2026-08-22T14:50:00Z"
+    tracks: 4
+    room: ~
+  - title: "Still Supported Isn't the Same as Still Safe: Legacy Assets and the Enforcement Gap"
+    description: "Organisations keep running insecure legacy systems not because they don't know about the risk, but because replacing them costs more than they can afford. And even when a system is supported and the patch is free, there are laws and guidelines saying you must update but actually enforcing that across every system in a large organisation is a different problem entirely. This talk uses real incidents to show both failure modes, and ends with three things you can actually do about it this week."
+    speakers:
+      - Mateusz Madrzynski
+    start_utc: "2026-08-22T15:00:00Z"
+    end_utc: "2026-08-22T15:20:00Z"
+    tracks: 4
+    room: ~
+  - title: Metrics that lie
+    description: "A talk on how common SOC metrics can look accurate while misleading leadership, hiding operational reality, and driving the wrong business decisions."
+    speakers:
+      - Luigi Ritacca
+    start_utc: "2026-08-22T15:30:00Z"
+    end_utc: "2026-08-22T15:50:00Z"
+    tracks: 1
+    room: ~
+  - title: "Ghosts in the Sky: Creating Phantom Aircraft with Mode-S Transponder Spoofing"
+    description: "Modern commercial aircraft constantly exchange information using Mode-S transponders, ADS-B broadcasts, and TCAS collision avoidance messages. These systems help keep aircraft safely separated, but were designed before authenticated wireless communications became a security concern.\n\nThis talk provides an introduction to the protocols that underpin airborne collision avoidance and investigates whether a phantom aircraft could be introduced into the ACAS surveillance process through maliciously crafted Mode-S transmissions."
+    speakers:
+      - Alex Carr
+    start_utc: "2026-08-22T15:30:00Z"
+    end_utc: "2026-08-22T15:50:00Z"
+    tracks: 4
+    room: ~
+tracks:
+  Track 1:
+    info:
+      name: Track 1
+    sessions:
+      - 0
+      - 1
+      - 2
+      - 4
+      - 7
+      - 9
+      - 11
+      - 13
+      - 15
+      - 16
+      - 17
+      - 20
+      - 23
+      - 26
+      - 29
+      - 32
+  Track 2:
+    info:
+      name: Track 2
+    sessions:
+      - 3
+      - 5
+      - 6
+      - 8
+      - 10
+      - 12
+      - 14
+  Rookie Track:
+    info:
+      name: Rookie Track
+    sessions:
+      - 18
+      - 19
+      - 21
+      - 22
+      - 24
+      - 25
+      - 27
+      - 28
+      - 30
+      - 31
+      - 33
+  Workshop:
+    info:
+      name: Workshop
+    sessions: []
+  Village:
+    info:
+      name: Village
+    sessions: []
+rooms: {}
+start: "2026-08-21T08:55:00+01:00[Europe/London]"
+end: "2026-08-22T16:50:00+01:00[Europe/London]"
+last_day: 2026-08-22

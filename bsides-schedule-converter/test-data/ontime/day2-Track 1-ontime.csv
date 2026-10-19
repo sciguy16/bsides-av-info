@@ -1,0 +1,16 @@
+Time Start,Link start,Time End,Duration,Cue,Title,Skip,Colour,End action,Timer type,Count to end,Warning time,Danger time
+08:55:00,true,09:05:00,00:10:00,1,Opening Notes Saturday,false,green,none,count-down,false,00:05:00,00:01:00
+09:05:00,true,09:45:00,00:40:00,2,Keynote - Agent Smith Is in Your Stack: A Practical Guide to Governing AI Integration Before It Governs You,false,green,none,count-down,false,00:05:00,00:01:00
+09:45:00,false,10:00:00,00:15:00,3,Intermission,false,yellow,none,clock,true,00:05:00,00:01:00
+10:00:00,true,10:40:00,00:40:00,4,The Silence of the LAMs: Detecting Rogue Language Models,false,green,none,count-down,false,00:05:00,00:01:00
+10:40:00,false,11:00:00,00:20:00,5,Intermission,false,yellow,none,clock,true,00:05:00,00:01:00
+11:00:00,true,11:40:00,00:40:00,6,You’ve Been Ph0wned: How Attackers Compromise Organisations Via Telephone Social Engineering,false,green,none,count-down,false,00:05:00,00:01:00
+11:40:00,false,13:30:00,01:50:00,7,Intermission,false,yellow,none,clock,true,00:05:00,00:01:00
+13:30:00,true,14:10:00,00:40:00,8,Ghost in the Kernel: Hunting BYOVD After Microsoft’s 2026 Driver Trust Shift,false,green,none,count-down,false,00:05:00,00:01:00
+14:10:00,false,14:30:00,00:20:00,9,Intermission,false,yellow,none,clock,true,00:05:00,00:01:00
+14:30:00,true,15:10:00,00:40:00,10,Breaching The Perimeter: The Forgotten Attack Vector That Always Works,false,green,none,count-down,false,00:05:00,00:01:00
+15:10:00,false,15:30:00,00:20:00,11,Intermission,false,yellow,none,clock,true,00:05:00,00:01:00
+15:30:00,true,16:10:00,00:40:00,12,"So You Want To Get Into Red Teaming: Skills, Mindset, and Myths",false,green,none,count-down,false,00:05:00,00:01:00
+16:10:00,false,16:30:00,00:20:00,13,Intermission,false,yellow,none,clock,true,00:05:00,00:01:00
+16:30:00,true,16:50:00,00:20:00,14,Metrics that lie,false,green,none,count-down,false,00:05:00,00:01:00
+16:50:00,false,23:59:59,07:09:59,15,End of day,false,yellow,none,clock,true,00:05:00,00:01:00

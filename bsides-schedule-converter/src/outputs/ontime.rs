@@ -1,4 +1,4 @@
-use chrono::{NaiveTime, TimeDelta};
+use chrono::{DateTime, NaiveTime, TimeDelta};
 use color_eyre::Result;
 use rust_xlsxwriter::Workbook;
 use serde::{Deserialize, Serialize};
@@ -24,8 +24,8 @@ Time danger 	Excel time | string 	00:01:00
 const BREAK_COLOUR: &str = "yellow";
 const TALK_COLOUR: &str = "green";
 
-const TIME_WARN: NaiveTime = NaiveTime::from_hms_opt(0, 5, 0).unwrap();
-const TIME_DANGER: NaiveTime = NaiveTime::from_hms_opt(0, 1, 0).unwrap();
+const TIME_WARN: TimeDelta = TimeDelta::minutes(5);
+const TIME_DANGER: TimeDelta = TimeDelta::minutes(1);
 // Time just before midnight for generating end-of-day cues
 const MIDNIGHT: NaiveTime = NaiveTime::from_hms_opt(23, 59, 59).unwrap();
 
@@ -45,8 +45,8 @@ pub fn make_ontime_export<W: Write + Send>(
     let mut cue_number = 0;
 
     let mut intermission = crate::show_file::Session {
-        start: NaiveTime::default(),
-        end: NaiveTime::default(),
+        start: DateTime::default(),
+        end: DateTime::default(),
         is_break: true,
         title: "Intermission".into(),
         description: String::new(),
@@ -79,7 +79,7 @@ pub fn make_ontime_export<W: Write + Send>(
             intermission.end = talk2.start;
         } else {
             // make an end of day
-            intermission.end = MIDNIGHT;
+            intermission.end = MIDNIGHT.into();
             intermission.title = "End of day".into();
         };
 
@@ -175,8 +175,8 @@ impl OntimeExport {
             end_action: EndAction::None,
             time_ty: ty.time_ty(),
             count_to_end: ty.count_to_end(),
-            time_warning: TIME_WARN.to_string(),
-            time_danger: TIME_DANGER.to_string(),
+            time_warning: format_duration(TIME_WARN),
+            time_danger: format_duration(TIME_DANGER)
         }
     }
 }

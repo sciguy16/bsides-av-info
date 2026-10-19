@@ -1,7 +1,3 @@
----
-source: bsides-schedule-converter/src/wordlist.rs
-expression: out
----
 45,724 Networks, One Flipper Zero: Mapping the Wireless Threat Landscape of Northern Ireland
 After Party (Haymarket, wristbands required)
 Afternoon break

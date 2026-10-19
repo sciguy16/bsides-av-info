@@ -1,7 +1,3 @@
----
-source: bsides-schedule-converter/src/wordlist.rs
-expression: out
----
 ADS-B and Aviation Security
 Beyond the Air Gap: How IT/OT Convergence Changes the Attack Surface
 Breaching The Perimeter: The Forgotten Attack Vector That Always Works
